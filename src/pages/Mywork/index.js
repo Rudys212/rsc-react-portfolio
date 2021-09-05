@@ -1,4 +1,4 @@
-import Projects from "../../components/Projects/index";
+import Projects from "../../components/Projects";
 
 export default function Mywork() {
   <Projects />;

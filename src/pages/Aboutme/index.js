@@ -1,11 +1,10 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
 import ProfilePic from "../../assets/images/Profile pic.jpg";
 
 export default function Aboutme() {
   return (
     <div>
-      <Container text fluid className="aboutmesection">
+      <div text fluid className="aboutmesection">
         <h1 id="aboutmetitle">Hi there, my name is Rudy Sanchez Cisneros!</h1>
         <img
           class="headshot"
@@ -31,7 +30,7 @@ export default function Aboutme() {
           </p>
         </div>
         <br />
-      </Container>
+      </div>
     </div>
   );
 }
