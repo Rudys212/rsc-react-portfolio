@@ -1,6 +1,12 @@
 import Projects from "../../components/Projects";
+import React from "react";
 
-export default function Mywork() {
-  <Projects />;
-  return <h1>My Work</h1>;
-}
+const Mywork = () => {
+  return (
+    <div className="container">
+      <Projects />
+    </div>
+  );
+};
+
+export default Mywork;

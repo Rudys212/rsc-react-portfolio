@@ -1,0 +1,8 @@
+.cards img {
+  height: 305px !important;
+  width: 300px !important;
+  max-width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center !important;
+}

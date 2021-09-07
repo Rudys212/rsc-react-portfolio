@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import ProfilePic from "../../assets/images/Profile pic.jpg";
 
 export default function Aboutme() {
@@ -7,7 +8,7 @@ export default function Aboutme() {
       <div text fluid className="aboutmesection">
         <h1 id="aboutmetitle">Hi there, my name is Rudy Sanchez Cisneros!</h1>
         <img
-          class="headshot"
+          className="headshot"
           src={ProfilePic}
           alt="my very professional headshot"
         />

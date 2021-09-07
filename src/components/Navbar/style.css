@@ -1,0 +1,13 @@
+a.navBarLinks {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Titillium Web", sans-serif;
+  margin-right: 20px;
+}
+
+a.navBarLinks:hover {
+  text-decoration: line-through;
+  color: white;
+}

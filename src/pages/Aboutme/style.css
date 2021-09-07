@@ -1,10 +1,35 @@
-#aboutmetitle {
-  font-family: "Titillium Web", sans-serif;
-}
 #aboutMeHeader {
   font-family: "Titillium Web", sans-serif;
 }
-#paraTxtOne,
-#paraTxtTwo {
+p#paraTxtOne,
+p#paraTxtTwo {
   font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 25px !important;
+  float: left;
+  width: 600px;
+  margin-left: 40px;
+  margin-right: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1#aboutmetitle {
+  font-family: "Titillium Web", sans-serif;
+  align-items: center;
+  align-content: center;
+  position: relative !important;
+  left: 210px !important;
+}
+
+img.headshot {
+  max-width: 100% !important;
+  height: auto;
+  height: 380px !important;
+  position: relative !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  margin-left: 58px !important;
+  float: left;
+  top: 80px;
 }
