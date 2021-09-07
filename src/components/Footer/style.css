@@ -1,0 +1,27 @@
+.footerIcons a {
+  color: black !important;
+  font-size: 20px;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  margin-right: 40px;
+  flex-direction: row;
+  left: 290px;
+}
+
+li.footerIcons {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.linkTxt a:hover {
+  color: white !important;
+  text-decoration: line-through;
+}
+#footerContainer {
+  text-align: center;
+  font-size: 15px;
+  align-content: center;
+}

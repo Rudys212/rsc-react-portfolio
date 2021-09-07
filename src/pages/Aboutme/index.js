@@ -12,7 +12,7 @@ export default function Aboutme() {
           src={ProfilePic}
           alt="my very professional headshot"
         />
-        <h2 id="aboutMeHeader"> About Me:</h2>
+        <br></br>
         <div id="aboutme">
           <p id="paraTxtOne">
             I am a Front-End web developer with a background in Food and

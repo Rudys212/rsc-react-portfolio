@@ -15,7 +15,7 @@ function Navbar() {
         }}
       >
         <div style={linkStyle}>
-          <Link to="/Aboutme" className="navBarLinks">
+          <Link to="/" className="navBarLinks">
             About Me
           </Link>
         </div>

@@ -1,0 +1,20 @@
+a.resumeBtn {
+  margin-left: 30px !important;
+  background-color: gray !important;
+  color: black !important;
+  font-size: 20px !important;
+  bottom: 20px !important;
+  position: relative !important;
+  background-image: none !important;
+  border-radius: 11px !important;
+  padding: 5px !important;
+  text-decoration: none !important;
+}
+.resumeContainer {
+  align-content: center !important;
+  /* align-items: center; */
+  position: relative;
+  left: 50px;
+  align-content: center;
+  /* display: flex; */
+}

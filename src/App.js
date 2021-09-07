@@ -4,7 +4,7 @@ import Mywork from "./pages/Mywork";
 import Contactme from "./pages/Contactme";
 import Aboutme from "./pages/Aboutme";
 import Resume from "./pages/Resume";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/Aboutme">
+        <Route exact path="/">
           <Aboutme />
         </Route>
         <Route exact path="/Contactme">
@@ -25,7 +25,7 @@ function App() {
           <Resume />
         </Route>
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
