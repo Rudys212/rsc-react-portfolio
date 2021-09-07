@@ -42,4 +42,4 @@
 
 [GitHub Repo URL](https://github.com/Rudys212/rsc-react-portfolio)
 
-[Deployed URL](https://rudys212.github.io/Rudy-S-Portfolio/)
+[Deployed URL](https://rudys212.github.io/rsc-react-portfolio/)
